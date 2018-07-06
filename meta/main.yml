@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Java wasn't installed
+    debug:
+      msg: "This is shown because Java isn't installed"
